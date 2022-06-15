@@ -1,0 +1,83 @@
+.letras{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+}
+
+img{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+.fondo{
+    background-image: url("imagen/degradado.jpg");
+    
+}
+
+.buscador{
+    margin: auto;
+}
+ 
+article{
+    text-align: center;
+}
+
+.boton{
+    background-color: brown;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.resultado{
+    font-weight: bold;
+}
+
+.barra{
+    padding: 3px 10px;
+    border: black 5px solid;
+    border-radius: 20px;
+}
+
+.validate{
+    width: 500px;
+}
+
+.kemicofa-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: stretch;
+}
+
+.kemicofa-row > * {
+    flex-basis: 20rem;
+    flex-shrink: 0;
+}
+
+.kemicofa-row .card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kemicofa-row .card > .card-content {
+    flex-grow: 1;
+}
+
+.kemicofa-row .card > .card-image {
+    flex-basis: 25rem;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    background-color: grey;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.resultado{
+    margin: 20px;
+}
